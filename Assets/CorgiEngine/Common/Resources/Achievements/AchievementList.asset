@@ -34,7 +34,7 @@ MonoBehaviour:
     Description: Jump at least 10 times
     Points: 100
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 92c47c745afc6af44aadffb985c86d43, type: 3}
     UnlockedSound: {fileID: 8300000, guid: 89db9a30e91a9a947ab40be759f43f99, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -61,4 +61,16 @@ MonoBehaviour:
     UnlockedImage: {fileID: 21300000, guid: 177c9b3de85e6854b9a5c7b249605a6b, type: 3}
     UnlockedSound: {fileID: 8300000, guid: 89db9a30e91a9a947ab40be759f43f99, type: 3}
     ProgressTarget: 19
+    ProgressCurrent: 0
+  - AchievementID: DoubleJump
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Mad Ups!
+    Description: Got The Double Jump Ability
+    Points: 0
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 9e28b67e6c9fca644949bae5ce7a49cd, type: 3}
+    UnlockedSound: {fileID: 8300000, guid: 89db9a30e91a9a947ab40be759f43f99, type: 3}
+    ProgressTarget: 0
     ProgressCurrent: 0

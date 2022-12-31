@@ -4962,6 +4962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 314837643}
+  - component: {fileID: 314837644}
   m_Layer: 0
   m_Name: Targets
   m_TagString: Untagged
@@ -5003,6 +5004,38 @@ Transform:
   m_Father: {fileID: 1858949006}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &314837644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314837642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4caf9f660a3b6048950cd8524a86fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 1295031744}
+  - {fileID: 1981990376}
+  - {fileID: 10697777}
+  - {fileID: 288421254}
+  - {fileID: 2131010194}
+  - {fileID: 15345135}
+  - {fileID: 203875747}
+  - {fileID: 59847246}
+  - {fileID: 214963926}
+  - {fileID: 1659124940}
+  - {fileID: 59990599}
+  - {fileID: 1275250812}
+  - {fileID: 1142413191}
+  - {fileID: 2032860350}
+  - {fileID: 236206371}
+  - {fileID: 1831458149}
+  - {fileID: 1087451997}
+  - {fileID: 1898391006}
+  - {fileID: 1966843335}
 --- !u!1001 &324394336
 PrefabInstance:
   m_ObjectHideFlags: 0
