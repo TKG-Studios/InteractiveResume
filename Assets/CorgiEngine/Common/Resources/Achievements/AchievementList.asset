@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AchievementsListID: AchievementsList
   Achievements:
-  - AchievementID: LevelComplete
+  - AchievementID: ResumeReviewed
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Resume Complete
+    Title: Resume Reviewed!
     Description: Reach The End Of The Resume
     Points: 200
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: 8d82877043714fa4bb30f6b14ed33353, type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 89db9a30e91a9a947ab40be759f43f99, type: 3}
     ProgressTarget: 0
     ProgressCurrent: 0
   - AchievementID: JumpAround

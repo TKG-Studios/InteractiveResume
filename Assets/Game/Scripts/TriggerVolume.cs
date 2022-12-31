@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.CorgiEngine;
 using MoreMountains.InventoryEngine;
+using MoreMountains.Tools;
 public class TriggerVolume : MonoBehaviour
 {
     public Inventory[] inventories;
@@ -17,11 +18,12 @@ public class TriggerVolume : MonoBehaviour
 
             collision.GetComponent<CharacterHandleWeapon>().CurrentWeapon.enabled = false;
             collision.GetComponent<CharacterHandleWeapon>().CurrentWeapon.gameObject.SetActive(false);
-
+            MMAchievementManager.UnlockAchievement("ResumeReviewed");
             foreach (Inventory inventory in inventories)
             {
                 inventory.EmptyInventory();
                 inventory.ResetSavedInventory();
+
             }
         }
         this.enabled = false;

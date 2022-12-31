@@ -12,6 +12,7 @@ public class DoorColliderEnable : MonoBehaviour
 
     public delegate void disableControls();
     public static event disableControls controlsDisabled;
+    
 
     private void OnEnable()
     {
@@ -34,6 +35,7 @@ public class DoorColliderEnable : MonoBehaviour
     {
         if (gameObject.name == "OpeningDoor")
         {
+            GetComponent<AudioSource>().Play();
             movingPlatform.enabled = true;
             movingPlatform.MoveTowardsEnd();
             camera.Follow = DoorFollowPosition.transform;
@@ -45,6 +47,7 @@ public class DoorColliderEnable : MonoBehaviour
 
     public void OpenSecondDoor()
     {
+        GetComponent<AudioSource>().Play();
         controlsDisabled?.Invoke();
         camera.Follow = DoorFollowPosition.transform;
         movingPlatform.enabled = true;
