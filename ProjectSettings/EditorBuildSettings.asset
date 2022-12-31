@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/ResumeScene.unity
     guid: a3491a052ee59274a80ce4ef20991c18
+  - enabled: 1
+    path: Assets/Game/Scenes/CustomEndScreen.unity
+    guid: dcddce740a576044081bf4a927a937bb
   m_configObjects: {}
